@@ -6,9 +6,10 @@ using System.Runtime.InteropServices;
 
 namespace PackAndGoCSharp.csproj
 {
-    partial class SolidWorksMacro
+    class Program
     {
-        public void Main()
+        static SldWorks swApp;
+        static void Main(string[] args)
         {
             ModelDoc2 swModelDoc = default(ModelDoc2);
             ModelDocExtension swModelDocExt = default(ModelDocExtension);
@@ -109,7 +110,7 @@ namespace PackAndGoCSharp.csproj
         /// The SldWorks swApp variable is pre-assigned for you.
         /// </summary>
 
-        public SldWorks swApp;
+        ///public SldWorks swApp;
 
     }
 }
