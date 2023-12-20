@@ -76,7 +76,7 @@ namespace PackAndGoCSharp.csproj
             }
 
             // Set folder where to save the files
-            myPath = "C:\\temp\\";
+            myPath = "C:\\Users\\fs136650\\OneDrive - First Solar\\Desktop\\PackNGor Test\\PnGs\\";
             status = swPackAndGo.SetSaveToName(true, myPath);
 
             // Flatten the Pack and Go folder structure; save all files to the root directory
@@ -104,13 +104,6 @@ namespace PackAndGoCSharp.csproj
             statuses = (int[])swModelDocExt.SavePackAndGo(swPackAndGo);
 
         }
-
-
-        /// <summary>
-        /// The SldWorks swApp variable is pre-assigned for you.
-        /// </summary>
-
-        ///public SldWorks swApp;
 
     }
 }
